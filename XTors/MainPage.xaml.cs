@@ -2,14 +2,22 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-       
+        private void aythUser_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Registr_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

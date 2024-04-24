@@ -7,6 +7,8 @@
         public MainPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasBackButton(this, false);
         }
 
         private void aythUser_Clicked(object sender, EventArgs e)

@@ -2,49 +2,73 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XTors.RegPage"
+             NavigationPage.HasNavigationBar="False"
              >
-    <VerticalStackLayout>
-        <Label 
-            Text="Регистрация"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" 
-            Padding="0, 100,0,0"/>
 
-        <Entry
-            x:Name="login"
-            Placeholder="Введите логин"
-            FontSize="15"
-            PlaceholderColor="Gray"/>
+    <ScrollView>
+        <VerticalStackLayout
+             Padding="30,0"
+             Spacing="25">
+            
+            
+            <Label 
+         Text="Регистрация"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center" 
+         FontSize="30"
+         Padding="0, 100,0,0"/>
 
-        <Entry
-            x:Name="Name"
-            Placeholder="Введите имя"
-            FontSize="15"
-            PlaceholderColor="Gray"/>
+            <Entry
+         x:Name="login"
+         Placeholder="Введите логин"
+         FontSize="17"
+         PlaceholderColor="Gray"
+         Margin="10"
+         WidthRequest="300"/>
 
-        <Entry
-            x:Name="pass"
-            Placeholder="Введите пароль"
-            FontSize="15"
-            PlaceholderColor="Gray"/>
+            <Entry
+         x:Name="Name"
+         Placeholder="Введите имя"
+         FontSize="17"
+         PlaceholderColor="Gray"
+         WidthRequest="300"
+         Margin="15"/>
 
-        <Entry
-            x:Name="rememberPass"
-            Placeholder="Повторите пароль"
-            FontSize="15"
-            PlaceholderColor="Gray"/>
+            <Entry
+         x:Name="pass"
+         Placeholder="Введите пароль"
+         FontSize="17"
+         PlaceholderColor="Gray"
+         WidthRequest="300"
+         Margin="15"/>
 
-        <Button
-            x:Name="registr"
-            Clicked="registr_Clicked"
-            Text="Зарегистрироватся"
-            HeightRequest="50"
-            CornerRadius="10"/>
+            <Entry
+         x:Name="rememberPass"
+         Placeholder="Повторите пароль"
+         FontSize="17"
+         PlaceholderColor="Gray"
+         WidthRequest="300"
+         Margin="15"/>
+
+            <Button
+         x:Name="registr"
+         Clicked="registr_Clicked"
+         Text="Зарегистрироватся"
+         HeightRequest="50"
+         CornerRadius="10"
+         WidthRequest="300"
+         FontSize="17"
+         Margin="25"/>
 
 
 
 
 
 
-    </VerticalStackLayout>
+        </VerticalStackLayout>
+
+
+    </ScrollView>
+    
+   
 </ContentPage>

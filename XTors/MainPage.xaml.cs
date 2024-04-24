@@ -14,8 +14,9 @@
 
         }
 
-        private void Registr_Clicked(object sender, EventArgs e)
+        private async void Registr_Clicked(object sender, EventArgs e)
         {
+            await Navigation.PushAsync(new RegPage());
 
         }
     }

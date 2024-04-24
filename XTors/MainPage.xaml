@@ -40,6 +40,8 @@
                 Clicked="aythUser_Clicked"
                 Text="Войти"
                 FontSize="20"
+                HeightRequest="50"
+                CornerRadius="10"
                 
                 />
             <Button

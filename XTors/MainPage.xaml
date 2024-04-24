@@ -3,6 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XTors.MainPage">
 
+    
+
+
+
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
@@ -14,13 +18,15 @@
                 FontFamily="Krub"
                 HorizontalOptions="Center"
                 Padding="0, 150, 0, 0"
-                TextColor="#F40F62"
+
                 />
             <Entry
                 Placeholder="Login"
                 FontSize="17"
                 x:Name="login"
-                Margin="0, 40,0,0"/>
+                Margin="0, 40,0,0"
+
+                />
 
             <Entry
                 Placeholder="Пароль"
@@ -34,7 +40,7 @@
                 Clicked="aythUser_Clicked"
                 Text="Войти"
                 FontSize="20"
-                Background="#F40F62"
+                
                 />
             <Button
                 Background="Transparent"

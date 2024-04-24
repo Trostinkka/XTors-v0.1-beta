@@ -6,4 +6,9 @@ public partial class RegPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void registr_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

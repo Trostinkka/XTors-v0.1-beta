@@ -2,11 +2,49 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XTors.RegPage"
-             Title="RegPage">
+             >
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Регистрация"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            Padding="0, 100,0,0"/>
+
+        <Entry
+            x:Name="login"
+            Placeholder="Введите логин"
+            FontSize="15"
+            PlaceholderColor="Gray"/>
+
+        <Entry
+            x:Name="Name"
+            Placeholder="Введите имя"
+            FontSize="15"
+            PlaceholderColor="Gray"/>
+
+        <Entry
+            x:Name="pass"
+            Placeholder="Введите пароль"
+            FontSize="15"
+            PlaceholderColor="Gray"/>
+
+        <Entry
+            x:Name="rememberPass"
+            Placeholder="Повторите пароль"
+            FontSize="15"
+            PlaceholderColor="Gray"/>
+
+        <Button
+            x:Name="registr"
+            Clicked="registr_Clicked"
+            Text="Зарегистрироватся"
+            HeightRequest="50"
+            CornerRadius="10"/>
+
+
+
+
+
+
     </VerticalStackLayout>
 </ContentPage>
